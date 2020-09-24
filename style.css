@@ -1,0 +1,355 @@
+body {
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+    color: rgb(197, 197, 197);
+    background-color: rgb(0, 0, 0);
+  }
+  
+  h2 {
+    text-align: center;
+    color: rgb(219, 174, 106);
+  }
+  
+  /*Header section*/
+  .header {
+    position: sticky;
+    top: 0;
+    height: 100px;
+    background-image: url(
+        https://cdn.glitch.com/c85637ec-c85a-4dbe-82fe-effc32b6ddeb%2FTransparent_bgd_crown_header_banner_197x80.png?v=1591640970436
+      ),
+      linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5));
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .header_nav ul {
+    margin: 0;
+    padding: 79px 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+  }
+  
+  .header_nav a {
+    color: /*rgb(197, 197, 197)*/inherit;
+    text-decoration: none;
+  }
+  
+  .header_nav a:hover {
+    color: rgb(219, 174, 106);
+    font-weight: bold;
+  }
+  
+  /*Hero section*/
+  .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0)),
+      url(https://cdn.glitch.com/c85637ec-c85a-4dbe-82fe-effc32b6ddeb%2FHero_bgd_1920x1280.jpg?v=1591640894683);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: rgb(197, 197, 197);
+    padding: 20px 20px 20px 20px;
+  }
+  
+  .hero h1 {
+    text-align: center;
+    color: rgb(219, 174, 106);
+    margin-top: 0;
+  }
+  
+  .hero p {
+    text-align: justify;
+  }
+  
+  /*Royal Family section*/
+  #royal_family {
+    background-image: url(https://cdn.glitch.com/c85637ec-c85a-4dbe-82fe-effc32b6ddeb%2FTransparent_bgd_crown_header_banner_197x80.png?v=1591640970436);
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding: 85px 20px 20px 20px;
+  }
+  
+  .royal_family {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .royal_family section {
+    padding: 0 10px;
+  }
+  .royal_family h3 {
+      text-align: center;
+  }
+  
+  .royal_family img {
+    display: flex;
+    margin: auto;
+    border-radius: 50% / 50%;
+  }
+  
+  .royal_family p {
+    text-align: justify;
+  }
+  
+  /*Royal assets section*/
+  
+  #royal_assets {
+    background-image: url(https://cdn.glitch.com/c85637ec-c85a-4dbe-82fe-effc32b6ddeb%2FTransparent_bgd_crown_header_banner_197x80.png?v=1591640970436g);
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding: 85px 20px 20px 20px;
+    background-color: rgba(99, 97, 97, 0.7);
+  }
+  
+  .royal_assets table {
+    margin: 20px 0;
+    background-image: url(https://cdn.glitch.com/c85637ec-c85a-4dbe-82fe-effc32b6ddeb%2FRoyal_asset_bgd_1920x500.jpg?v=1591640931591);
+    background-size: cover;
+    table-layout: fixed;
+    width: 100%;
+    height: 250px;
+    font-size: 1.2em;
+    border: 3px solid rgb(219, 174, 106);
+    border-collapse: collapse;
+  }
+  
+  th,td {
+    padding: 5px 0;
+  }
+  
+  .royal_assets thead {
+    border-top: 3px solid rgb(219, 174, 106);
+    border-left: 3px solid rgb(219, 174, 106);
+    border-right: 3px solid rgb(219, 174, 106);
+  }
+  
+  .royal_assets tbody th {
+    border-right: 3px solid rgb(219, 174, 106);
+  }
+  
+  .royal_assets tbody td {
+    border-top: 3px solid rgb(219, 174, 106);
+  }
+  
+  .royal_assets th {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .royal_assets td {
+    background-color: rgba(219, 174, 106, 0.5);
+    text-align: center;
+    color: #000;
+  }
+  
+  .royal_assets tfoot {
+    border: 3px solid rgb(219, 174, 106);
+  }
+  
+  .royal_assets tfoot td:first-child {
+    background-color: rgba(0, 0, 0, 0.7);
+    font-weight: 600;
+    color: inherit;
+    border: 3px solid rgb(219, 174, 106);
+  }
+  
+  /*Javelin event section*/
+  .javelin_results table {
+    table-layout: fixed;
+    background-image: url(https://cdn.glitch.com/c85637ec-c85a-4dbe-82fe-effc32b6ddeb%2FJavelin_bgd_1920x500.jpg?v=1591640905503);
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    font-size: 1.2em;
+    border: 3px solid silver;
+    border-collapse: collapse;
+  }
+  
+  .javelin_results thead {
+    border-bottom: 3px solid silver;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .javelin_results thead th:nth-child(1) {
+    width: 10%;
+    border-right: 3px solid silver;
+    word-wrap: break-word;
+  }
+  
+  .javelin_results thead th:nth-child(2) {
+    width: 40%;
+  }
+  
+  .javelin_results thead th:nth-child(3) {
+    width: 40%;
+  }
+  
+  .javelin_results thead th:nth-child(4) {
+    width: 10%;
+    border-left: 3px solid silver;
+    word-wrap: break-word;
+  }
+  
+  .javelin_results tbody {
+    color: #000;
+  }
+  
+  .javelin_results tbody td {
+    text-align: center;
+  }
+  
+  .javelin_results tbody td:nth-child(3) {
+    font-weight: bold;
+  }
+  
+  .javelin_results tbody th:first-child {
+    border-right: 3px solid silver;
+  }
+  
+  .javelin_results tbody td:last-child {
+    border-left: 3px solid silver;
+  }
+  
+  .javelin_results tbody tr:nth-child(odd) {
+    background-color: rgba(143, 143, 143, 0.8);
+  }
+  
+  .javelin_results tbody tr:nth-child(even) {
+    background-color: rgba(99, 97, 97, 0.8);
+  }
+  
+  .javelin_results tbody tr:nth-child(2) {
+    background-color: rgba(219, 174, 106, 0.9);
+  }
+  
+  .javelin_results tbody tr:nth-child(10) {
+    background-color: rgba(231, 231, 231, 0.9);
+    color: #000;
+  }
+  
+  .javelin_results tbody tr:nth-child(8) {
+    background-color: rgba(206, 106, 59, 0.9);
+  }
+  
+  .javelin_results caption {
+    font-size: 0.6em;
+    font-style: italic;
+    caption-side: bottom;
+    text-align: right;
+    padding-top: 10px;
+  }
+  
+  .javelin_results caption div {
+    display: inline-flex;
+  }
+  
+  .javelin_results .gold {
+    background-color: rgb(219, 174, 106);
+    width: 50px;
+    height: 1em;
+  }
+  
+  .javelin_results .silver {
+    background-color: rgb(231, 231, 231);
+    width: 50px;
+    height: 1em;
+    margin-left: 20px;
+  }
+  
+  .javelin_results .bronze {
+    background-color: rgb(206, 106, 59);
+    width: 50px;
+    height: 1em;
+    margin-left: 20px;
+  }
+  
+  /*Contact_us*/
+  #contact_us {
+    background-image: url(https://cdn.glitch.com/c85637ec-c85a-4dbe-82fe-effc32b6ddeb%2FTransparent_bgd_crown_header_banner_197x80.png?v=1591640970436);
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding: 85px 20px 20px 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  form {
+    background-color: rgba(231, 231, 231, 0.2);
+    width: 380px;
+    padding: 20px 20px;
+    font-size: 1.2em;
+  }
+  
+  .urmess {
+    margin-bottom: 1em;
+  }
+  
+  input {
+    border-radius: 5px 5px;
+    padding: 5px;
+  }
+  
+  ::placeholder {
+    font-style: italic;
+    font-weight: bold;
+    color: rgba(143, 143, 143, 0.7);
+  }
+  
+  textarea {
+    width: 100%;
+    border-radius: 10px 10px;
+  }
+  
+  .checkbox {
+    font-size: 0.7em;
+  }
+  
+  button {
+    border-radius: 10px 10px;
+    background-color: rgb(197, 197, 197);
+    padding: 5px;
+    border-style: none;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: rgb(219, 174, 106);
+  }
+  
+  /*About Us*/
+  footer {
+    color: #000;
+    background-color: rgb(145, 142, 142);
+    padding: 20px 20px 10px 20px;
+  }
+  
+  footer div {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  h3 {
+    margin: 0;
+  }
+  
+  .social_network {
+    width: 50%;
+  }
+  
+  .social_network ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+  }
+  
+  .social_network img {
+    margin: 0 5px 0 5px;
+    width: auto;
+    height: 40px;
+  }
+  
